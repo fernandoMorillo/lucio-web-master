@@ -1,0 +1,145 @@
+body {
+    background: url(img/imgFirmas1.jpg) no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    z-index: 0;
+}
+
+body::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.header {
+    position: relative;
+    z-index: 2;
+}
+
+.header-1 {
+    background: #1a4f35;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 3px 8px -1px rgba(0, 0, 0, 0.75);
+}
+
+.menu-1 {
+    background: #ffffff;
+    padding: 10px 15px;
+    box-shadow: 1px 2px 13px -2px rgba(0, 0, 0, 0.75);
+    z-index: 4;
+}
+
+.menu-2 {
+    background: #1a4f35;
+    padding: 10px 15px;
+    box-shadow: 1px 2px 13px -2px rgba(0, 0, 0, 0.75);
+    z-index: 4;
+}
+
+.abs {
+    position: relative;
+    margin-top: -10px;
+
+}
+
+.padding {
+    background: white;
+    width: 0.3%;
+    color: white;
+}
+
+footer {
+    background-color: #1a4f35;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    z-index: 1;
+}
+
+span > img {
+    width: 32px;
+
+}
+
+span > .whats {
+    width: 40px;
+}
+
+@media only screen and (max-width: 736px) and (min-width: 320px) {
+
+    body {
+        background-image: url(img/imgFirmas.jpg);
+        background-size: cover;
+        width: 100%;
+        margin: 0 auto;
+        height: 100vh;
+        z-index: 0;
+    }
+}
+
+/*Modal*/
+.modal-body{
+    text-align: justify;
+}
+/* .modal-content1{
+    background-color: #ffffff;
+    background-image: url(img/logo-cartagenaH.png);
+} */
+.mdlas{
+    background-image: url(img/logo-cartagenaH.png);
+}
+.modal-header{
+    background-color: #1a4f35;
+}
+.modal-title{
+    color: #fff;
+}
+.btn-outline-success:hover{
+    background-color: #1a4f35;
+ }
+.centrar {
+    padding-left: 350px;
+}
+.pb_form_v1 {
+    background-color: #1d7cb6;
+    padding: 40px;
+    width: 500px;
+    -webkit-box-shadow: 1px 11px 68px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 11px 68px -20px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 11px 68px -20px rgba(0, 0, 0, 0.75); }
+.pb_form_v2 {
+    background-color: #1d7cb6;
+    padding: 40px;
+    width: 500px;
+    -webkit-box-shadow: 1px 11px 68px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 11px 68px -20px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 11px 68px -20px rgba(0, 0, 0, 0.75); }
+@media (max-width: 991px) {
+    .pb_form_v1 {
+        padding: 60px; } }
+@media (max-width: 991px) {
+    .modal-body.centrar1 {padding-left: 15px}
+    .modal-title.centrado {padding-left: 15px}
+    .modal-content{background-image: url(img/logo-cartagenaH.png);}
+    .pb_form_v2 {
+        padding: 10px;
+        width: 300px;
+    }
+}
+.centrar1{
+    padding-left: 150px;
+}
+.centrado{
+    padding-left: 250px;
+}
